@@ -1,5 +1,6 @@
 import importlib
 import os
+from pathlib import Path
 import tempfile
 import threading
 import time
@@ -66,4 +67,4 @@ class ServerToolTests(unittest.IsolatedAsyncioTestCase):
         server = self.load("1")
         with tempfile.TemporaryDirectory() as directory, patch.dict(os.environ, {"NOKIA_ROUTER_BACKUP_DIR": directory}):
             result = server.backup_config()
-            self.assertTrue(result["path"].startswith(directory))
+            self.assertTrue(Path(result["path"]).parent.samefile(directory))

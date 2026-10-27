@@ -16,7 +16,7 @@ class BackupPathTests(unittest.TestCase):
     def setUp(self):
         self.temp = tempfile.TemporaryDirectory()
         self.addCleanup(self.temp.cleanup)
-        self.root = Path(self.temp.name)
+        self.root = Path(self.temp.name).resolve()
         self.router = MemoryRouter()
         self.router.logout = lambda: None
         self.env = patch.dict(os.environ, {"NOKIA_ROUTER_ALLOW_WRITES": "1"})

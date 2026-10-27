@@ -5,7 +5,7 @@ Also run directly from outside the source checkout to smoke-test an installed wh
 import asyncio
 import os
 from pathlib import Path
-import sys
+import sysconfig
 import tempfile
 import unittest
 
@@ -17,7 +17,7 @@ class StdioTests(unittest.IsolatedAsyncioTestCase):
     async def discover(self, writes, raw):
         with tempfile.TemporaryDirectory() as directory:
             params = StdioServerParameters(
-                command=str(Path(sys.executable).with_name("nokia-router-mcp.exe" if os.name == "nt" else "nokia-router-mcp")),
+                command=str(Path(sysconfig.get_path("scripts")) / ("nokia-router-mcp.exe" if os.name == "nt" else "nokia-router-mcp")),
                 args=[],
                 cwd=directory,
                 env={
