@@ -1,0 +1,18 @@
+# secrets (incl. editor backup/undo files of .env)
+.env
+.env.*
+!.env.example
+*~
+*.un~
+*.swp
+
+# local router data dump (device names, MACs, IPs)
+probe-output/
+backups/
+
+.venv/
+__pycache__/
+*.pyc
+*.egg-info/
+dist/
+build/

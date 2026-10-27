@@ -1,0 +1,1267 @@
+{
+"loginUser": [
+"POST",
+"login",
+",null,!1,L,{loaderTimeout:this.constants.TIMEOUT_5_MINUTE}"
+],
+"logoutUser": [
+"GET",
+"logout",
+""
+],
+"getNonce": [
+"POST",
+"get_nonce",
+",null,!1,L"
+],
+"checkExpiry": [
+"GET",
+"check_expire",
+"+L"
+],
+"setLanguage": [
+"POST",
+"set_language",
+",null,!1,L"
+],
+"getDeviceStatus": [
+"GET",
+"device_status",
+""
+],
+"getNetworkTplStatus": [
+"GET",
+"network_tpl_status",
+""
+],
+"getGlblLedStatus": [
+"GET",
+"get_glbl_led_status",
+""
+],
+"setGlblLedInfo": [
+"POST_CSRF",
+"set_glbl_led_info",
+",null,!1,L"
+],
+"getOverviewStatus": [
+"GET",
+"overview_status",
+"+\"?\"+L,null,null,null,{loaderTimeout:this.constants.TIMEOUT_"
+],
+"getHardwareStatus": [
+"GET",
+"hardware_status",
+",null,null,null,{loaderTimeout:this.constants.TIMEOUT_2_MINU"
+],
+"getWireless2Info": [
+"GET",
+"wireless2_info",
+",null,null,null,{loaderTimeout:this.constants.TIMEOUT_3_MINU"
+],
+"getWireless5Info": [
+"GET",
+"wireless5_info",
+",null,null,null,{loaderTimeout:this.constants.TIMEOUT_3_MINU"
+],
+"getWireless5hInfo": [
+"GET",
+"wireless5h_info",
+",null,null,null,{loaderTimeout:this.constants.TIMEOUT_3_MINU"
+],
+"getWireless6Info": [
+"GET",
+"wireless6_info",
+",null,null,null,{loaderTimeout:this.constants.TIMEOUT_3_MINU"
+],
+"setWireless2Info": [
+"POST_CSRF",
+"set_wireless2_info",
+",null,!1,L,{loaderTimeout:this.constants.TIMEOUT_3_MINUTE}"
+],
+"setWireless5Info": [
+"POST_CSRF",
+"set_wireless5_info",
+",null,!1,L,{loaderTimeout:this.constants.TIMEOUT_3_MINUTE}"
+],
+"setWireless5Infoh": [
+"POST_CSRF",
+"set_wireless5_hight_info",
+",null,!1,L,{loaderTimeout:this.constants.TIMEOUT_3_MINUTE}"
+],
+"setWireless6Info": [
+"POST_CSRF",
+"set_wireless6_info",
+",null,!1,L,{loaderTimeout:this.constants.TIMEOUT_3_MINUTE}"
+],
+"setWirelessmlo": [
+"POST_CSRF",
+"set_wireless_mlo",
+",null,!1,L,{loaderTimeout:this.constants.TIMEOUT_3_MINUTE}"
+],
+"getLanStatus": [
+"GET",
+"get_lan_status",
+""
+],
+"getUpnpDlnaInfo": [
+"GET",
+"get_upnp_dlna_info",
+""
+],
+"SetUpnpDlnaInfo": [
+"POST_CSRF",
+"set_upnp_dlna_info",
+",null,!1,L"
+],
+"getStaInfo": [
+"GET",
+"get_sta_info",
+",null,!1,null,L"
+],
+"getNeighApInfo": [
+"GET",
+"get_neigh_ap_info",
+""
+],
+"getMeshInfo": [
+"GET",
+"get_mesh_info",
+""
+],
+"setMeshInfo": [
+"POST_CSRF",
+"set_mesh_info",
+",null,!1,L"
+],
+"deleteMeshInfo": [
+"POST_CSRF",
+"delete_mesh_ap_info",
+",null,!1,L"
+],
+"getBridgeModeInfo": [
+"GET",
+"get_bridgemode_info",
+""
+],
+"getRouterInfo": [
+"GET",
+"router_info",
+""
+],
+"getDeviceInfo": [
+"GET",
+"get_device_info",
+""
+],
+"getWanStatus": [
+"GET",
+"get_wan_status",
+""
+],
+"getWanIpv6Status": [
+"GET",
+"get_wan_ipv6_status",
+""
+],
+"getHomeNetworkStatus": [
+"GET",
+"home_ntw_status",
+",null,!1,null,L"
+],
+"getStatistics": [
+"GET",
+"statistics_info",
+""
+],
+"deleteLocalDevice": [
+"POST_CSRF",
+"delete_local_devices",
+",null,!1,L"
+],
+"deleteDomainGroup": [
+"POST_CSRF",
+"delete_domain_group",
+",null,!1,L"
+],
+"getOpticalStatus": [
+"GET",
+"get_optical_status",
+""
+],
+"getVoiceInfo": [
+"GET",
+"get_voice_info",
+""
+],
+"getTR69Info": [
+"GET",
+"get_tr69_info",
+""
+],
+"getTR369Info": [
+"GET",
+"get_tr369_info",
+""
+],
+"setTR69Info": [
+"POST_CSRF",
+"set_tr69_info",
+",null,!1,L"
+],
+"setTR69ChangeConfig": [
+"POST_CSRF",
+"change_tr69_config",
+",null,!1,L"
+],
+"setTR369Usp": [
+"POST_CSRF",
+"set_tr369_usp",
+",null,!1,L"
+],
+"setTR369Params": [
+"POST_CSRF",
+"set_tr369_params",
+",null,!1,L"
+],
+"getWanConfigInfo": [
+"GET",
+"get_wan_config_status",
+""
+],
+"setWanConfig": [
+"POST_CSRF",
+"set_wan_config_status",
+",null,!1,L,{loaderTimeout:this.constants.TIMEOUT_1_5_MINUTE}"
+],
+"setWanConfigRStatus": [
+"POST_CSRF",
+"set_wan_configR_status",
+",null,!1,L,{loaderTimeout:this.constants.TIMEOUT_1_5_MINUTE}"
+],
+"setWanConfigBStatus": [
+"POST_CSRF",
+"set_wan_configB_status",
+",null,!1,L,{loaderTimeout:this.constants.TIMEOUT_1_5_MINUTE}"
+],
+"deleteWanConfig": [
+"POST_CSRF",
+"delete_wan_config_status",
+",null,!1,L"
+],
+"dialWanConfig": [
+"POST_CSRF",
+"dial_wan_config_status",
+",null,!1,L"
+],
+"retryWanConfig": [
+"POST_CSRF",
+"retry_wan_config_status",
+",null,!1,L"
+],
+"disconnectWanConfig": [
+"POST_CSRF",
+"disconnect_wan_config_status",
+",null,!1,L"
+],
+"getWanConfigDialStatus": [
+"POST_CSRF",
+"get_wan_config_dial_status",
+",null,!1,L"
+],
+"dialWanMethodConfig": [
+"POST_CSRF",
+"dial_wan_method_config",
+"+L,null,!1"
+],
+"getWanDhcpInfo": [
+"GET",
+"get_wan_dhcp_info",
+""
+],
+"setWanDhcpInfo": [
+"POST_CSRF",
+"set_wan_dhcp_info",
+",null,!1,L"
+],
+"getLanIpv4": [
+"GET",
+"get_lan_ipv4",
+""
+],
+"setPortInfo": [
+"POST_CSRF",
+"set_port_mode_info",
+",null,!1,L"
+],
+"setLanIpv4": [
+"POST_CSRF",
+"set_lan_ipv4",
+",null,!1,L,{loaderTimeout:this.constants.TIMEOUT_1_5_MINUTE}"
+],
+"setLanIpv4RelayConfig": [
+"POST_CSRF",
+"set_lan_ipv4_relay_config",
+",null,!1,L,{loaderTimeout:this.constants.TIMEOUT_1_5_MINUTE}"
+],
+"addStaticDhcp": [
+"POST_CSRF",
+"add_static_dhcp",
+",null,!1,L"
+],
+"deleteStaticDhcp": [
+"POST_CSRF",
+"delete_static_dhcp",
+"+L,null,!1"
+],
+"getLanIpv6": [
+"GET",
+"get_lan_ipv6",
+""
+],
+"setLanIpv6": [
+"POST_CSRF",
+"set_lan_ipv6",
+",null,!1,L"
+],
+"getWpsPbc": [
+"POST_CSRF",
+"get_wps_connect_pbc",
+",null,!1,L"
+],
+"getWpsApPin": [
+"POST_CSRF",
+"get_wps_connect_ap_pin",
+",null,!1,L"
+],
+"getWpsStaPin": [
+"POST_CSRF",
+"get_wps_connect_sta_pin",
+",null,!1,L"
+],
+"getWpsConnectStatus": [
+"POST_CSRF",
+"get_wps_connection_status",
+",null,!1,L"
+],
+"getGeneratedPin": [
+"POST_CSRF",
+"get_generated_pin",
+",null,!1,L"
+],
+"getIPSecTunnelInfo": [
+"GET",
+"get_ipsecTunnel_info",
+""
+],
+"enableIPSecTunnel": [
+"POST_CSRF",
+"enable_ipSecTunnel",
+",null,!1,L"
+],
+"addIPSecTunnel": [
+"POST_CSRF",
+"add_ipSecTunnel",
+",null,!1,L"
+],
+"deleteIPSecTunnel": [
+"POST_CSRF",
+"delete_ipSecTunnel",
+",null,!1,L"
+],
+"getfirmwareUpgradeStatus": [
+"POST_CSRF_TEXT",
+"get_firmware_upgrade_status",
+",null,!1,null,L"
+],
+"startFirmwareUpgarde": [
+"POST",
+"start_firmware_upgrade",
+",null,!1,L,{loaderTimeout:this.constants.TIMEOUT_3_MINUTE}"
+],
+"cbrsUpload": [
+"POST",
+"cbrs_upload",
+",null,!1,L,{loaderTimeout:this.constants.TIMEOUT_3_MINUTE}"
+],
+"invokeShellExistCommand": [
+"POST_CSRF",
+"invoke_shell_exist_command",
+"+L,null,!1"
+],
+"accessControlStatus": [
+"GET",
+"access_control_status",
+""
+],
+"addTrustedNetwork": [
+"POST_CSRF",
+"add_trusted_network",
+",null,!1,L"
+],
+"deleteTrustedNetwork": [
+"POST_CSRF",
+"del_trusted_network",
+"+L,null,!1"
+],
+"setAccessControl": [
+"POST_CSRF",
+"set_access_control",
+",null,!1,L"
+],
+"getScheduleStatus": [
+"GET",
+"get_wifi_schedule_status",
+""
+],
+"setWifiSchedule": [
+"POST_CSRF",
+"set_wifi_schedule",
+",null,!1,L"
+],
+"delWifiSchedule": [
+"POST_CSRF",
+"wifi_schedule_del",
+",null,!1,L"
+],
+"addWifiSchedule": [
+"POST_CSRF",
+"wifi_schedule_add",
+",null,!1,L"
+],
+"getWpsPbc5hz": [
+"POST_CSRF",
+"get_wps_connect_pbc_11ac",
+",null,!1,L"
+],
+"getWpsPbc5hzh": [
+"POST_CSRF",
+"get_wps_connect_hight_pbc_11ac",
+",null,!1,L"
+],
+"getWpsApPin5hz": [
+"POST_CSRF",
+"get_wps_connect_appin_11ac",
+",null,!1,L"
+],
+"getWpsApPin5hzh": [
+"POST_CSRF",
+"get_wps_connect_hight_appin_11ac",
+",null,!1,L"
+],
+"getWpsStaPin5hz": [
+"POST_CSRF",
+"get_wps_connect_stapin_11ac",
+",null,!1,L"
+],
+"getWpsStaPin5hzh": [
+"POST_CSRF",
+"get_wps_connect_hight_stapin_11ac",
+",null,!1,L"
+],
+"getWpsStatus5hz": [
+"POST_CSRF",
+"get_wps_status_11ac",
+",null,!1,L"
+],
+"getWpsStatus5hzh": [
+"POST_CSRF",
+"get_wps_status_hight_11ac",
+",null,!1,L"
+],
+"getGeneratedPin5hz": [
+"POST_CSRF",
+"get_generated_pin_11ac",
+",null,!1,L"
+],
+"getGeneratedPin5hzh": [
+"POST_CSRF",
+"get_generated_pin_hight_11ac",
+",null,!1,L"
+],
+"importBackupRestore": [
+"POST_FORM_DATA",
+"import_backup_restore",
+",null,!1,L"
+],
+"rebootSystem": [
+"POST_CSRF_NULL",
+"reboot_system",
+",null,!1"
+],
+"exportBackupRestore": [
+"GET_EXPORT",
+"export_backup_restore",
+""
+],
+"doFactoryDefault": [
+"POST_CSRF",
+"do_factory_default",
+",null,!1,L"
+],
+"doDeepFactoryReset": [
+"POST_CSRF",
+"do_deep_factory_reset",
+",null,!1,L"
+],
+"getLoidConfig": [
+"GET",
+"get_loid_config",
+""
+],
+"setLoidConfig": [
+"POST_CSRF",
+"set_loid_config",
+",null,!1,L"
+],
+"getSlidConfig": [
+"GET",
+"get_slid_config",
+""
+],
+"setSlidConfig": [
+"POST_CSRF",
+"set_slid_config",
+",null,!1,L"
+],
+"getPasswordInfo": [
+"GET",
+"get_password_info",
+""
+],
+"getGlobeUserInfo": [
+"GET",
+"get_globe_user_info",
+""
+],
+"setGlobePassword": [
+"POST_CSRF",
+"set_globe_pwd",
+",null,!1,L"
+],
+"setPasswordInfo": [
+"POST_CSRF",
+"set_password_info",
+",null,!1,L"
+],
+"setChangePasswordInfo": [
+"POST_CSRF",
+"set_changepassword_info",
+",null,!1,L"
+],
+"dnsRebootData": [
+"POST_CSRF",
+"dns_reboot_data",
+",null,!1,L"
+],
+"addDnsIpv4": [
+"POST_CSRF",
+"add_dns_ipv4",
+",null,!1,L"
+],
+"addDnsDomain": [
+"POST_CSRF",
+"add_dns_domain",
+",null,!1,L"
+],
+"deleteDnsDomainIpv4": [
+"POST_CSRF",
+"del_dns_domain_ipv4",
+"+L,null,!1"
+],
+"deleteDomainConfig": [
+"POST_CSRF",
+"del_domain_config",
+"+L,null,!1"
+],
+"getDnsInfo": [
+"GET",
+"get_dns_config_data",
+""
+],
+"getDeviceManagementInfo": [
+"GET",
+"get_device_management_info",
+""
+],
+"addDeviceManagementInfo": [
+"POST_CSRF",
+"add_device_management_info",
+",null,!1,L"
+],
+"deleteDeviceManagementInfo": [
+"POST_CSRF",
+"del_device_management_info",
+"+L,null,!1"
+],
+"getDiagnosticsInfo": [
+"GET",
+"get_diagnotics_info",
+""
+],
+"setDiagnosticsInfo": [
+"POST_CSRF",
+"set_diagnotics_info",
+",null,!1,L"
+],
+"cancelDiagnosticsInfo": [
+"POST_CSRF",
+"cancel_diagnotics_info",
+",null,!1"
+],
+"getLogsInfo": [
+"GET",
+"get_log_info",
+""
+],
+"getLog": [
+"POST_CSRF_TEXT",
+"get_log",
+",null,!1"
+],
+"setlog": [
+"POST_CSRF",
+"set_log",
+",null,!1,L"
+],
+"getIpRoute": [
+"GET",
+"get_ip_route",
+""
+],
+"deleteIpRoute": [
+"POST_CSRF",
+"del_ip_route",
+"+L,null,!1"
+],
+"setIpRoute": [
+"POST_CSRF",
+"set_ip_route",
+",null,!1,L"
+],
+"pingIp": [
+"POST_CSRF",
+"ping_ip",
+",null,!1,L"
+],
+"getTroubleShootInfo": [
+"GET",
+"get_troubleshoot_info",
+""
+],
+"setPortMirrorInfo": [
+"POST_CSRF",
+"set_port_mirror",
+",null,!1,L"
+],
+"deletePortMirror": [
+"POST_CSRF",
+"del_port_mirror",
+"+L,null,!1"
+],
+"getDnsResponseTest": [
+"POST_CSRF",
+"get_dns_response_test",
+",null,!1,L"
+],
+"getLatencyTestInfo": [
+"POST_CSRF",
+"get_latency_test_info",
+",null,!1,L"
+],
+"getDsThroughPutTestInfo": [
+"POST_CSRF",
+"get_ds_throughput_info",
+",null,!1,L"
+],
+"getUsThroughPutTestInfo": [
+"POST_CSRF",
+"get_us_throughput_info",
+",null,!1,L"
+],
+"getDsPacketLoss": [
+"POST_CSRF_NULL",
+"get_ds_packet_loss_info",
+",null,!1"
+],
+"getUsPacketLoss": [
+"POST_CSRF_NULL",
+"get_us_packet_loss_info",
+",null,!1"
+],
+"getCurrentTime": [
+"GET",
+"get_current_time",
+""
+],
+"getMacFilterInfo": [
+"GET",
+"get_mac_filter",
+""
+],
+"addEthernetMacInfo": [
+"POST_CSRF",
+"add_ethernet_mac_addr",
+",null,!1,L"
+],
+"addSsidMacAddress": [
+"POST_CSRF",
+"add_ssid_mac_addr",
+",null,!1,L"
+],
+"deleteSsidMacAddress": [
+"POST_CSRF_NULL",
+"del_ssid_mac_addr",
+"+L,null,!1"
+],
+"deleteEthernetMacAddress": [
+"POST_CSRF_NULL",
+"del_ethernet_mac_addr",
+"+L,null,!1"
+],
+"getFirewallInfo": [
+"GET",
+"get_firewall_info",
+""
+],
+"setFirewallInfo": [
+"POST_CSRF",
+"set_firewall_info",
+",null,!1,L"
+],
+"setFirewallInfo181": [
+"POST_CSRF",
+"set_firewall_info_181mode",
+",null,!1,L"
+],
+"getDmzAlgInfo": [
+"GET",
+"get_alg_dmz_info",
+""
+],
+"setDmzConfigInfo": [
+"POST_CSRF",
+"set_dmz_config",
+",null,!1,L"
+],
+"setAlgConfigInfo": [
+"POST_CSRF",
+"set_alg_config",
+",null,!1,L"
+],
+"getGreTunnelInfo": [
+"GET",
+"get_gre_tunnel_info",
+""
+],
+"addGreTunnelInfo": [
+"POST_CSRF",
+"add_gre_tunnel_name",
+",null,!1,L"
+],
+"deleteGreTunnelInfo": [
+"POST_CSRF",
+"del_gre_tunnel_name",
+",null,!1,L"
+],
+"getUrlFilterEnable": [
+"POST_CSRF_NULL",
+"get_urlfilter_enable_info",
+"+L,null,!1"
+],
+"getUrlFilterExclude": [
+"POST_CSRF_NULL",
+"get_urlfilter_exclude_info",
+"+L,null,!1"
+],
+"getUrlInfo": [
+"GET",
+"get_urlfilter_info",
+""
+],
+"addUrlFilter": [
+"POST_CSRF",
+"add_url_filter",
+",null,!1,L"
+],
+"delUrlFilter": [
+"POST_CSRF",
+"del_url_filter",
+",null,!1,L"
+],
+"getPortForwarding": [
+"GET",
+"get_port_forwarding",
+""
+],
+"setPortForwarding": [
+"POST_CSRF",
+"set_port_forwarding",
+",null,!1,L"
+],
+"delPortForwarding": [
+"POST_CSRF_NULL",
+"del_port_forwarding",
+"+L,null,!1"
+],
+"getPortTriggering": [
+"GET",
+"get_port_triggering",
+""
+],
+"setPortTriggering": [
+"POST_CSRF",
+"set_port_triggering",
+",null,!1,L"
+],
+"delPortTriggering": [
+"POST_CSRF_NULL",
+"del_port_triggering",
+"+L,null,!1"
+],
+"getIpFilterEnable": [
+"POST_CSRF_NULL",
+"getIpfilterenableData",
+"+L,null,!1"
+],
+"getIpInfo": [
+"GET",
+"get_ipfilter_info",
+""
+],
+"addIpFilter": [
+"POST_CSRF",
+"addIpFilterData",
+",null,!1,L"
+],
+"delIpFilter": [
+"POST_CSRF_NULL",
+"deleteIpFilterData",
+"+L,null,!1"
+],
+"enableIpFilterRule": [
+"POST_CSRF_NULL",
+"enableIpFilterRule",
+"+L,null,!1"
+],
+"getDdnsStatus": [
+"GET",
+"get_ddns_status",
+""
+],
+"setDdnsInfo": [
+"POST_CSRF",
+"set_ddns_info",
+",null,!1,L"
+],
+"getNtpInfo": [
+"GET",
+"get_ntp_info",
+""
+],
+"setNtpInfo": [
+"POST_CSRF",
+"set_ntp_Info",
+",null,!1,L"
+],
+"getUsbInfo": [
+"GET",
+"get_usb_info",
+""
+],
+"setUsbInfo": [
+"POST_CSRF",
+"set_usb_info",
+",null,!1,L"
+],
+"setUspolicyInfo": [
+"POST_CSRF",
+"set_us_policy_info",
+",null,!1,L"
+],
+"delUspolicyInfo": [
+"POST_CSRF",
+"del_us_policy_info",
+",null,!1,L"
+],
+"setUsclassifierInfo": [
+"POST_CSRF",
+"set_us_classifier_info",
+",null,!1,L"
+],
+"delUsclassifierInfo": [
+"POST_CSRF",
+"del_us_classifier_info",
+",null,!1,L"
+],
+"getUsclassifierInfo": [
+"GET",
+"get_us_classifier_info",
+""
+],
+"setUsclassifierrulesInfo": [
+"POST_CSRF",
+"set_us_classifierrules_info",
+",null,!1,L"
+],
+"delUsclassifierrulesInfo": [
+"POST_CSRF",
+"del_us_classifierrules_info",
+",null,!1,L"
+],
+"setUsbTableInfo": [
+"POST_CSRF_NULL",
+"set_usb_table_info",
+",null,!1"
+],
+"getQosConfigInfo": [
+"GET",
+"getQOSConfigInfo",
+",null,!1,null,L"
+],
+"addQosConfig": [
+"POST_CSRF",
+"addQOSConfigInfo",
+",null,!1,L"
+],
+"delQosConfig": [
+"POST_CSRF",
+"deleteQOSConfigInfo",
+"+L,null,!1"
+],
+"getFamilyProfilesDeviceList": [
+"GET",
+"parental_control_get_all_devices",
+"+\"?gmode=all\""
+],
+"getVoiceSettingsInfo": [
+"GET",
+"get_voice_setting_info",
+""
+],
+"setVoiceSettingsInfo": [
+"POST_CSRF",
+"set_voice_setting_info",
+",null,!1,L"
+],
+"getDeviceCapability": [
+"GET",
+"get_device_capability",
+""
+],
+"getHomeNtwTopo": [
+"GET",
+"get_home_ntw_topo",
+""
+],
+"getRadioAccessStatus": [
+"GET",
+"get_radio_access_status",
+""
+],
+"getRadioAccessStatusFWAGW": [
+"GET",
+"get_radio_access_status_fwa_gw",
+""
+],
+"getConnectedDevicesGET": [
+"GET",
+"get_connected_devices",
+""
+],
+"getConnectedDevices": [
+"POST_CSRF_JSON",
+"get_connected_devices",
+",null,!1"
+],
+"getSvgColorsData": [
+"GET",
+"get_svg_css",
+""
+],
+"setBridgemodeinfo": [
+"POST_CSRF",
+"setBridgemodeinfo",
+",null,!1,L"
+],
+"getGuestNetworkData": [
+"GET",
+"get_guest_wifi",
+",null,null,null,{loaderTimeout:this.constants.TIMEOUT_3_MINU"
+],
+"setGuestNetworkData": [
+"POST_CSRF",
+"set_guest_wifi",
+",null,!1,L,{loaderTimeout:this.constants.TIMEOUT_3_MINUTE}"
+],
+"startRecDeltaCfg": [
+"POST_FORM_DATA",
+"start_recording_delta_cfg",
+",null,!1,L"
+],
+"exportDeltaCfg": [
+"GET_EXPORT",
+"export_delta_cfg",
+",null,!1,L"
+],
+"setRRM": [
+"POST_CSRF",
+"set_rrm",
+"+L,null,!1"
+],
+"getContainerData": [
+"GET",
+"get_container_info",
+""
+],
+"getSpeedTestData": [
+"GET",
+"get_speedtest_info",
+""
+],
+"getSpeedTestResultData": [
+"GET",
+"get_speedtest_result_info",
+""
+],
+"setSpeedTestTrigger": [
+"POST_CSRF",
+"set_speedtest_trigger",
+",null,!1,L"
+],
+"setSpeedTestLatency": [
+"POST_CSRF",
+"set_speedtest_latency",
+",null,!1,L"
+],
+"setSpeedTestUpload": [
+"POST_CSRF",
+"set_speedtest_upload",
+",null,!1,L"
+],
+"setSpeedTestDownload": [
+"POST_CSRF",
+"set_speedtest_download",
+",null,!1,L"
+],
+"getSpeedTestLatency": [
+"GET",
+"get_speedtest_latency",
+",null,!1"
+],
+"getSpeedTestUpload": [
+"GET",
+"get_speedtest_upload",
+",null,!1"
+],
+"getSpeedTestDownload": [
+"GET",
+"get_speedtest_download",
+",null,!1"
+],
+"setSpeedTestData": [
+"POST_CSRF",
+"set_speedtest_info",
+",null,!1,L"
+],
+"setDeviceFriendlyName": [
+"POST_CSRF",
+"set_device_fname_category",
+",null,!1,L"
+],
+"setRootFriendlyName": [
+"POST_CSRF",
+"set_root_fname",
+",null,!1,L"
+],
+"getGameMode": [
+"GET",
+"get_game_mode",
+",null,!1"
+],
+"setGameMode": [
+"POST_CSRF",
+"set_game_mode",
+",null,!1,L"
+],
+"setFWAPassword": [
+"POST_CSRF_FWA",
+"set_fwa_password",
+",null,!1,L"
+],
+"getDomainRoute": [
+"GET",
+"get_domain_route",
+""
+],
+"setDomainRoute": [
+"POST_CSRF",
+"set_domain_route",
+",null,!1,L"
+],
+"deleteDomainRoute": [
+"POST_CSRF",
+"delete_domain_route",
+"+L,null,!1"
+],
+"enableDomainRoute": [
+"POST_CSRF",
+"enable_domain_route",
+",null,!1,L"
+],
+"getSMSList": [
+"POST_CSRF_FWA",
+"ubus",
+",null,!1,L"
+],
+"deleteSMS": [
+"POST_CSRF_FWA",
+"ubus",
+",null,!1,L"
+],
+"setSMSState": [
+"POST_CSRF_FWA",
+"ubus",
+",null,!1,L"
+],
+"callUBUS": [
+"POST_CSRF_FWA",
+"ubus",
+",L"
+],
+"getPreLoginInfo": [
+"GET",
+"get_prelogin_info",
+""
+],
+"getCellularStatusInfo": [
+"GET",
+"get_cellular_status",
+""
+],
+"getCAInfo": [
+"POST_CSRF_FWA",
+"ubus",
+",null,!1,L"
+],
+"getSIMInfo": [
+"GET",
+"get_sim_info",
+""
+],
+"getCellularNetworkIdentification": [
+"POST_CSRF_FWA",
+"ubus",
+",null,!1,L"
+],
+"getCellsInfo": [
+"GET",
+"get_cells_info",
+",null,!1"
+],
+"startCellularMeasurements": [
+"POST_CSRF_NULL",
+"start_cellular_measurement",
+",null,!1,L"
+],
+"deleteCell4G": [
+"POST_CSRF",
+"delete_cell_4g",
+",null,!1,L"
+],
+"deleteCell5G": [
+"POST_CSRF",
+"delete_cell_5g",
+",null,!1,L"
+],
+"addCell4G": [
+"POST_CSRF",
+"add_cell_4g",
+",null,!1,L"
+],
+"addCell5G": [
+"POST_CSRF",
+"add_cell_5g",
+",null,!1,L"
+],
+"getSalt": [
+"POST",
+"get_salt",
+",null,!1,L"
+],
+"getModemLogMode": [
+"POST_CSRF_FWA",
+"ubus",
+",null,!1,L"
+],
+"setModemLogMode": [
+"POST_CSRF_FWA",
+"ubus",
+",null,!1,L"
+],
+"getBluetoothStatus": [
+"GET",
+"get_bluetooth",
+",null,!1"
+],
+"setBluetoothStatus": [
+"POST_CSRF",
+"set_bluetooth",
+",null,!1,L"
+],
+"setpoeEnable": [
+"POST_CSRF",
+"set_poe_enable",
+",null,!1"
+],
+"setpoeDisable": [
+"POST_CSRF",
+"set_poe_disable",
+",null,!1"
+],
+"getpoeStatus": [
+"GET",
+"get_poe_status",
+""
+],
+"getLifeTimeDataCounter": [
+"POST_CSRF_FWA",
+"ubus",
+",null,!1,L"
+],
+"setNetworkOptimize": [
+"POST_CSRF",
+"set_ntw_optimize",
+",null,!1"
+],
+"setWifiPassword": [
+"POST_CSRF",
+"set_wifi_pwd",
+",null,!1,L"
+],
+"initiatePrecache": [
+"GET",
+"initiate_precache",
+""
+],
+"getParentalControlGbl": [
+"GET",
+"get_parental_control_global",
+""
+],
+"setParentalCtrlGbl": [
+"POST_CSRF",
+"post_parental_control_glbl",
+",null,!1,L"
+],
+"skipChangePassword": [
+"POST_CSRF",
+"set_skip_password",
+",null,!1"
+],
+"skipChangeWifiPassword": [
+"POST_CSRF",
+"skip_wifi_pwd",
+",null,!1"
+]
+}
